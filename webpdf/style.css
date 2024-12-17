@@ -1,0 +1,52 @@
+﻿body {
+    margin: 0em auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0em;
+    background-color: white;
+    margin: auto;
+    font-family: Calibri;
+}
+
+#bingkai {
+    padding-top: 2px;
+    width: 100%;
+    height: auto;
+    min-height: 768px;
+    margin: 0 auto;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    float: left;
+    height: 20%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: deeppink
+}
+
+#menukiri {
+    float: left;
+    height: 70%;
+    width: 25%;
+    margin: 0 auto;
+    background-color: lightpink
+}
+
+#konten {
+    float: left;
+    height: 70%;
+    width: 75%;
+    margin: 0 auto;
+    background-color: lightpink
+}
+
+#bawah {
+    float: left;
+    height: 10%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: mediumpurple
+}

@@ -1,0 +1,31 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="webpbf.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+        <link href="style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="bingkai">
+            <div id="header">PT AERARE</div>
+            <div id="menukiri">
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1">
+                </asp:Menu>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+            </div>
+            <div id="konten">
+                <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" />
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>    
+        <di>
+            <div id="bawah"></div>
+        </div>
+    </form>
+</body>
+</html>
